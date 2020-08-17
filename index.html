@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Piano Set</title>
+    <link rel="stylesheet" href="resets.css">
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+    <section>
+      <button data-key="c" type="button" name="button">C</button>
+      <button data-key="d" type="button" name="button">D</button>
+      <button data-key="e" type="button" name="button">E</button>
+      <button data-key="f" type="button" name="button">F</button>
+      <button data-key="g" type="button" name="button">G</button>
+      <button data-key="a" type="button" name="button">A</button>
+      <button data-key="b" type="button" name="button">B</button>
+    </section>
+
+    <button disabled class="playButton" type="button" name="button">Play Something For Me!</button>
+
+    <audio data-key="c" src="sounds/c5.mp3"></audio>
+    <audio data-key="d" src="sounds/d5.mp3"></audio>
+    <audio data-key="e" src="sounds/e5.mp3"></audio>
+    <audio data-key="f" src="sounds/f5.mp3"></audio>
+    <audio data-key="g" src="sounds/g5.mp3"></audio>
+    <audio data-key="a"  src="sounds/a5.mp3"></audio>
+    <audio data-key="b" src="sounds/b5.mp3"></audio>
+
+    <script src="script.js" charset="utf-8"></script>
+  </body>
+</html>
